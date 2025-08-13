@@ -4,6 +4,7 @@ flask_migrate
 flask_jwt_extended
 flask_cors
 flask_socketio
+eventlet
 gunicorn
 sqlalchemy
 psycopg2-binary
