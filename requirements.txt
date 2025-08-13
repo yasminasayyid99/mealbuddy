@@ -1,10 +1,11 @@
-Flask==3.1.1
+flask==3.1.1
 flask_sqlalchemy
 flask_migrate
 flask_jwt_extended
 flask_cors
+flask_socketio
 gunicorn
 sqlalchemy
-psycopg2
+psycopg2-binary
 python-dotenv==1.1.1
 Werkzeug==3.1.3
