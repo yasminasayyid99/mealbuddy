@@ -55,4 +55,5 @@ def create_app(config_class=Config):
 app = create_app()
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, host='0.0.0.0', port=int(os.getenv('PORT', 3001)))
+    port = int(os.environ.get("PORT", 8000))
+    socketio.run(app, debug=True, host='0.0.0.0', port=port)
